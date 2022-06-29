@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task1"
+    android:background="@color/light_grey">
+
+    <Button
+        android:id="@+id/buttonTask1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@color/light_grey"
+        android:text="Initiate Process"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:id="@+id/buttonTask2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@color/light_grey"
+        android:text="Start Mining"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonTask1"
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:id="@+id/buttonTask3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@color/light_grey"
+        android:text="Reset All"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:textColor="@color/black"/>
+
+
+
+
+</RelativeLayout>

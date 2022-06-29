@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BIT_Mine</string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="tag1">Here’s\nyour first\nstep with \nus!</string>
+    <string name="display_register_idea">Display register idea</string>
+    <string name="name">Name</string>
+</resources>

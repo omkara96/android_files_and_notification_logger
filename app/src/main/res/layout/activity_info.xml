@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info"
+    android:background="@color/light_grey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:text="This is processing app that process certain instructions which can generate crypto currency.the also track back how much data is processed so be patient. the amount is credited on your registered mobile number. for earning make sure app is running in background and not closes due to any reason this can reduce your earning if task is not processed completely"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
